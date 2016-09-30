@@ -1,0 +1,23 @@
+
+
+
+h1 {font: 24px/30px Verdana,Sans-serif; color: red;}
+
+p {font-size: 16px;
+font-style: normal;
+font-weight: bold;
+font-family:Verdana, sans-serif;
+}
+
+
+
+
+@media screen and (min-width:0px) and (max-width:640px) {
+  /* CSS code for small screens */
+  h1 {font: 24px/30px Verdana,Sans-serif; color: red;}
+}
+
+@media screen and (min-width:641px) {
+  /* CSS code for larger screens */
+  h1 {font: 24px/30px Verdana,Sans-serif; color: green;}
+}
