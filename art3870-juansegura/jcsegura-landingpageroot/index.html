@@ -1,0 +1,57 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/foundation.css" media="screen">
+    <link rel="stylesheet" href="css/normalize.css" media="screen">
+    <link rel="stylesheet" href="css/main.css" media="screen" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <title>Juan Segura's Landing Page</title>
+  </head>
+  <body>
+
+<section class="row">
+  <div class="small-12 large 12">
+   <h1>Juan Segura</h1>
+   <img src="images/pottery.jpg" alt="place_maker"/>
+ </section>
+
+
+
+<section>
+      <!--Span was used to define "variable" name-->
+    <h2>Welcome,<span id="greeting">hello!</span></h2>
+
+
+    Juan Segura is a San Francisco based visual and user experience designer.
+
+
+      <script type="text/javascript">
+      /* This line creates a date object for the browser and assigns it to the variable called new Date() */
+        var myDate = new Date();
+      /*The 'Object' is affected by the 'Method' (object.scream) the (.) tells where to pull from
+      -parameters for if the hour is before noon */
+        if ( myDate.getHours() < 12 )
+        {
+          document.getElementById('greeting').innerHTML = "Good Morning!";
+        }
+        else
+        if ( myDate.getHours() >=12 && myDate.getHours() <=17 )
+        {
+          document.getElementById('greeting').innerHTML = "Good Afternoon!";
+        }
+        else
+        if ( myDate.getHours() > 17 && myDate.getHours() <=24 )
+        {
+          document.getElementById('greeting').innerHTML = "Good Evening!";
+        }
+        else {
+          document.getElementById('greeting').innerHTML = "Time to go!";
+        }
+      </script>
+    </section>
+
+  </body>
+</html>
