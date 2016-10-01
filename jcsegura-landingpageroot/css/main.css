@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  background-color: white;
+}
+
+/* Name */
+h1 {
+  font: 40px 'PT mono', cursive;
+  color: black;
+}
+
+/* Greeting Tag */
+h2 {
+  font: 40px 'PT mono', cursive;
+  color: purple;
+}
+
+/* My Image */
+img {
+  background-color: white;
+  width: 550px;
+  height: 500px;
+  border-radius: 100%;
+  box-shadow: 1px 6px 6px #e6e6e6;
+  margin-top: 0px;
+}
+#greeting {
+  color: purple;
+}
+
+
+
+
+@media screen and (min-width:0px) and (max-width:640px) {
+  /* CSS code for small screens */
+  h1 {
+    font: 30px 'Helvetica', cursive;
+    color: black;
+    margin: 0px;
+  }
+  h2 {
+    font: 20px 'Helvetica', cursive;
+    color: purple;
+    margin: 2px;
+  }
+  img {
+    background-color: white;
+    width: 420px;
+    height: 350px;
+    border-radius: 100%;
+    margin-top: 10px;
+  }
+
+}
+  @media screen and (min-width:641px) {
+  /* CSS code for larger screens */
+  h1 {
+    font: 40px 'Amatic SC', cursive;
+    color: black;
+    margin: 0px;
+  }
+  h2 {
+    font: 40px 'Amatic SC', cursive;
+    color: purple;
+    margin: 2px;
+  }
+  img {
+    background-color: white;
+    width: 420px;
+    height: 350px;
+    border-radius: 100%;
+    margin-top: 10px;
+  }
+
+}
